@@ -610,6 +610,13 @@
   </url>
   
   <url>
+    <loc>https://goo-aw233.github.io/tags/Hexo/</loc>
+    <lastmod>2023-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://goo-aw233.github.io/tags/%E9%97%B2%E8%81%8A/</loc>
     <lastmod>2023-04-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -625,13 +632,6 @@
   
   <url>
     <loc>https://goo-aw233.github.io/tags/VMware-Workstation/</loc>
-    <lastmod>2023-04-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://goo-aw233.github.io/tags/Hexo/</loc>
     <lastmod>2023-04-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -682,14 +682,14 @@
   </url>
   
   <url>
-    <loc>https://goo-aw233.github.io/categories/%E9%97%B2%E8%81%8A/</loc>
+    <loc>https://goo-aw233.github.io/categories/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2023-04-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://goo-aw233.github.io/categories/%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://goo-aw233.github.io/categories/%E9%97%B2%E8%81%8A/</loc>
     <lastmod>2023-04-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -703,7 +703,7 @@
   </url>
   
   <url>
-    <loc>https://goo-aw233.github.io/categories/%E6%95%99%E7%A8%8B/DOS/</loc>
+    <loc>https://goo-aw233.github.io/categories/%E6%95%99%E7%A8%8B/Hexo/</loc>
     <lastmod>2023-04-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -717,14 +717,14 @@
   </url>
   
   <url>
-    <loc>https://goo-aw233.github.io/categories/%E6%95%99%E7%A8%8B/Hexo/</loc>
+    <loc>https://goo-aw233.github.io/categories/%E6%95%99%E7%A8%8B/iOS/</loc>
     <lastmod>2023-04-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://goo-aw233.github.io/categories/%E6%95%99%E7%A8%8B/iOS/</loc>
+    <loc>https://goo-aw233.github.io/categories/%E6%95%99%E7%A8%8B/DOS/</loc>
     <lastmod>2023-04-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -759,13 +759,6 @@
   </url>
   
   <url>
-    <loc>https://goo-aw233.github.io/categories/%E6%95%99%E7%A8%8B/iOS/%E8%B6%8A%E7%8B%B1/</loc>
-    <lastmod>2023-04-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://goo-aw233.github.io/categories/%E8%99%9A%E6%8B%9F%E6%9C%BA/VMware/</loc>
     <lastmod>2023-04-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -773,7 +766,7 @@
   </url>
   
   <url>
-    <loc>https://goo-aw233.github.io/categories/VMware/Workstation/</loc>
+    <loc>https://goo-aw233.github.io/categories/%E6%95%99%E7%A8%8B/iOS/%E8%B6%8A%E7%8B%B1/</loc>
     <lastmod>2023-04-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -781,6 +774,13 @@
   
   <url>
     <loc>https://goo-aw233.github.io/categories/%E8%99%9A%E6%8B%9F%E6%9C%BA/VirtualBox/</loc>
+    <lastmod>2023-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://goo-aw233.github.io/categories/VMware/Workstation/</loc>
     <lastmod>2023-04-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
