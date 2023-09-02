@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://goo-aw233.github.io/zh-CN/tutorial/Windows/AppxManagement-DISM/</loc>
+    
+    <lastmod>2023-09-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://goo-aw233.github.io/zh-CN/tutorial/Windows/AADmstsc/</loc>
     
     <lastmod>2023-09-02</lastmod>
@@ -48,15 +57,6 @@
   
   <url>
     <loc>https://goo-aw233.github.io/zh-CN/tutorial/Windows/Win7SKUlang/</loc>
-    
-    <lastmod>2023-09-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://goo-aw233.github.io/zh-CN/tutorial/Windows/AppxManagement-DISM/</loc>
     
     <lastmod>2023-09-02</lastmod>
     
@@ -671,14 +671,7 @@
   </url>
   
   <url>
-    <loc>https://goo-aw233.github.io/tags/DOS/</loc>
-    <lastmod>2023-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://goo-aw233.github.io/tags/VMware-Workstation/</loc>
+    <loc>https://goo-aw233.github.io/tags/Android/</loc>
     <lastmod>2023-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -692,7 +685,14 @@
   </url>
   
   <url>
-    <loc>https://goo-aw233.github.io/tags/Android/</loc>
+    <loc>https://goo-aw233.github.io/tags/DOS/</loc>
+    <lastmod>2023-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://goo-aw233.github.io/tags/VMware-Workstation/</loc>
     <lastmod>2023-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -757,7 +757,7 @@
   </url>
   
   <url>
-    <loc>https://goo-aw233.github.io/categories/%E6%95%99%E7%A8%8B/DOS/</loc>
+    <loc>https://goo-aw233.github.io/categories/%E6%95%99%E7%A8%8B/Android/</loc>
     <lastmod>2023-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -785,7 +785,7 @@
   </url>
   
   <url>
-    <loc>https://goo-aw233.github.io/categories/%E6%95%99%E7%A8%8B/Android/</loc>
+    <loc>https://goo-aw233.github.io/categories/%E6%95%99%E7%A8%8B/DOS/</loc>
     <lastmod>2023-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -799,14 +799,14 @@
   </url>
   
   <url>
-    <loc>https://goo-aw233.github.io/categories/%E6%95%99%E7%A8%8B/Windows/DISM/</loc>
+    <loc>https://goo-aw233.github.io/categories/%E6%95%99%E7%A8%8B/Windows/PowerShell/</loc>
     <lastmod>2023-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://goo-aw233.github.io/categories/%E6%95%99%E7%A8%8B/Windows/PowerShell/</loc>
+    <loc>https://goo-aw233.github.io/categories/%E6%95%99%E7%A8%8B/Windows/DISM/</loc>
     <lastmod>2023-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -848,6 +848,13 @@
   </url>
   
   <url>
+    <loc>https://goo-aw233.github.io/categories/%E8%99%9A%E6%8B%9F%E6%9C%BA/VMware/</loc>
+    <lastmod>2023-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://goo-aw233.github.io/categories/VMware/Workstation/</loc>
     <lastmod>2023-09-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -856,13 +863,6 @@
   
   <url>
     <loc>https://goo-aw233.github.io/categories/%E8%99%9A%E6%8B%9F%E6%9C%BA/VirtualBox/</loc>
-    <lastmod>2023-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://goo-aw233.github.io/categories/%E8%99%9A%E6%8B%9F%E6%9C%BA/VMware/</loc>
     <lastmod>2023-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
