@@ -54,7 +54,7 @@
 <meta property="og:image" content="https://gcore.jsdelivr.net/gh/Goo-aw233/WebSiteResources@main/Pics/WSA3in1/WSA3in1-22.png">
 <meta property="og:image" content="https://gcore.jsdelivr.net/gh/Goo-aw233/WebSiteResources@main/Pics/WSA3in1/WSA3in1-23.png">
 <meta property="article:published_time" content="2022-02-14T14:45:34.000Z">
-<meta property="article:modified_time" content="2023-04-07T15:32:15.226Z">
+<meta property="article:modified_time" content="2023-10-14T01:36:16.117Z">
 <meta property="article:author" content="GuCATs">
 <meta property="article:tag" content="软件">
 <meta property="article:tag" content="Windows">
@@ -200,7 +200,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">63</span>
+          <span class="site-state-item-count">64</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -310,7 +310,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-04-07 23:32:15" itemprop="dateModified" datetime="2023-04-07T23:32:15+08:00">2023-04-07</time>
+      <time title="修改时间：2023-10-14 09:36:16" itemprop="dateModified" datetime="2023-10-14T09:36:16+08:00">2023-10-14</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -340,7 +340,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>1.1k</span>
+      <span>1.2k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -369,11 +369,23 @@
 <h2 id="在-Linux-中构建-WSA"><a href="#在-Linux-中构建-WSA" class="headerlink" title="在 Linux 中构建 WSA"></a>在 Linux 中构建 WSA</h2><p>以下所有过程最好挂着代理，否则你的下载速度会出奇的慢<br><a target="_blank" rel="noopener" href="https://www.bing.com/search?q=Linux+%E7%BB%88%E7%AB%AF%E8%B5%B0%E4%BB%A3%E7%90%86">配置过程</a>请自行搜索</p>
 <h3 id="下载文件"><a href="#下载文件" class="headerlink" title="下载文件"></a>下载文件</h3><p>安装 Linux 发行版不是本文的要点，所以这里直接略过（<br><font color=red size=4>TIPS：请确保磁盘剩余空间 ≥5GiB</font><br>在任意文件夹右键，选择“在终端打开(E)”（WSL2 直接运行下面的命令即可）<br><img src="https://gcore.jsdelivr.net/gh/Goo-aw233/WebSiteResources@main/Pics/WSA3in1/WSA3in1-1.png" alt="在终端打开"><br>在终端内输入以下命令以安装 Git（输入密码的过程默认不显示密码）<br>在“您希望继续执行吗？ [Y/n]”中输入 Y</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install git</span><br></pre></td></tr></table></figure>
+
 <p><img src="https://gcore.jsdelivr.net/gh/Goo-aw233/WebSiteResources@main/Pics/WSA3in1/WSA3in1-2.png" alt="安装 Git"><br>从 GitHub 中下载 MagiskOnWSALocal（SSH 还需要登录到 GitHub，索性使用 HTTP 进行下载）</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/LSPosed/MagiskOnWSALocal.git</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/LSPosed/MagiskOnWSALocal.git --depth 1</span><br></pre></td></tr></table></figure>
+
 <p><img src="https://gcore.jsdelivr.net/gh/Goo-aw233/WebSiteResources@main/Pics/WSA3in1/WSA3in1-3.png" alt="GitHub 中下载"><br>切换到下载目录，并运行构建脚本</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo ./MagiskOnWSALocal/scripts/run.sh</span><br></pre></td></tr></table></figure>
+
 <p><img src="https://gcore.jsdelivr.net/gh/Goo-aw233/WebSiteResources@main/Pics/WSA3in1/WSA3in1-4.png" alt="运行"><br>等待几分钟，脚本会自动下载所需的文件</p>
+<details>
+
+<summary>如果显示 ERROR: Failed to create python3 virtual env</summary>
+
+<p>Ubuntu 一般不会遇到这个问题，如果你遇到了，或者使用 Debian 等 GNU/Linux 发行版，可以尝试运行他给你的命令来补全 Python 环境，如</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">apt install python3.11-venv</span><br></pre></td></tr></table></figure>
+
+</details>
+
 <h3 id="构建"><a href="#构建" class="headerlink" title="构建"></a>构建</h3><p>用上下方向键选择你需要的选项，按下空格确认选择，按下回车继续下一步</p>
 <p>选择你需要的系统架构（正常情况下默认 x64 即可）<br><img src="https://gcore.jsdelivr.net/gh/Goo-aw233/WebSiteResources@main/Pics/WSA3in1/WSA3in1-5.png" alt="架构"><br>选择 WSA 的版本<br>Retail=正式版 | Release Preview=预发布版 | Insider Slow=Beta 版 | Insider Fast=Dev 版<br>稳定性依次递减，功能性依次递增<br><img src="https://gcore.jsdelivr.net/gh/Goo-aw233/WebSiteResources@main/Pics/WSA3in1/WSA3in1-6.png" alt="WSA 版本"><br>选择 Magisk 版本<br>Stable=正式版 | Beta=Beta 版 | Canary=Canary 版 | Debug=测试版<br>稳定性依次递减，功能性依次递增<br><img src="https://gcore.jsdelivr.net/gh/Goo-aw233/WebSiteResources@main/Pics/WSA3in1/WSA3in1-7.png" alt="Magisk 版本"><br>选择是否安装 GApps<br><img src="https://gcore.jsdelivr.net/gh/Goo-aw233/WebSiteResources@main/Pics/WSA3in1/WSA3in1-8.png" alt="安装 GApps"><br>选择要安装的 GApps 版本（一般选择 OpenGApps，MindTheGapps 没用过所以不选（硬核））<br>如果你需要选择 OpenGApps 的版本，请参阅 <a target="_blank" rel="noopener" href="https://github.com/LSPosed/MagiskOnWSALocal/blob/main/Custom-GApps.md">Wiki</a><br><img src="https://gcore.jsdelivr.net/gh/Goo-aw233/WebSiteResources@main/Pics/WSA3in1/WSA3in1-9.png" alt="GApps 版本"><br>选择是否保留亚马逊应用商店<br><img src="https://gcore.jsdelivr.net/gh/Goo-aw233/WebSiteResources@main/Pics/WSA3in1/WSA3in1-10.png" alt="亚马逊应用商店"><br>选择是否进行 Root，none 为否<br><img src="https://gcore.jsdelivr.net/gh/Goo-aw233/WebSiteResources@main/Pics/WSA3in1/WSA3in1-11.png" alt="Root"><br>选择是否将构建的 WSA 进行压缩<br><img src="https://gcore.jsdelivr.net/gh/Goo-aw233/WebSiteResources@main/Pics/WSA3in1/WSA3in1-12.png" alt="压缩"><br>-&gt;选择压缩格式（7z 速度慢但压缩率高 zip 快但压缩率一般）<br><img src="https://gcore.jsdelivr.net/gh/Goo-aw233/WebSiteResources@main/Pics/WSA3in1/WSA3in1-12-1.png" alt="压缩格式"><br>完成后将开始下载所需文件、构建并压缩<br><img src="https://gcore.jsdelivr.net/gh/Goo-aw233/WebSiteResources@main/Pics/WSA3in1/WSA3in1-13.png" alt="构建"><br>耐心等待，终端会长时间处于 <code>Redirecting to <a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/topjohnwu/magisk-files/25.2/app-release.apk">https://raw.githubusercontent.com/topjohnwu/magisk-files/25.2/app-release.apk</a></code>，但如果仍有下载进度则代表没问题，否则请检查网络并重新运行 <code>run.sh</code><br><img src="https://gcore.jsdelivr.net/gh/Goo-aw233/WebSiteResources@main/Pics/WSA3in1/WSA3in1-14.png" alt="下载"></p>
 <hr>
@@ -526,7 +538,7 @@
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">2:24</span>
+    <span title="站点阅读时长">2:25</span>
   </span>
 </div>
 <div class="busuanzi-count">
