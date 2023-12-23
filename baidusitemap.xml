@@ -1,6 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://goo-aw233.github.io/zh-CN/tutorial/VM/QEMU/WindowsARMonQEMU/</loc>
+    <lastmod>2023-12-23</lastmod>
+  </url>
+  <url>
+    <loc>https://goo-aw233.github.io/zh-CN/others/tools/</loc>
+    <lastmod>2023-12-23</lastmod>
+  </url>
+  <url>
+    <loc>https://goo-aw233.github.io/zh-CN/tutorial/VM/VMware/vmmacOS-ws/</loc>
+    <lastmod>2023-12-23</lastmod>
+  </url>
+  <url>
+    <loc>https://goo-aw233.github.io/zh-CN/tutorial/VM/VMware/vmmacOS-vb/</loc>
+    <lastmod>2023-12-23</lastmod>
+  </url>
+  <url>
+    <loc>https://goo-aw233.github.io/zh-CN/tutorial/VM/VMware/vmtool/</loc>
+    <lastmod>2023-12-23</lastmod>
+  </url>
+  <url>
+    <loc>https://goo-aw233.github.io/zh-CN/tutorial/Windows/flash/</loc>
+    <lastmod>2023-12-23</lastmod>
+  </url>
+  <url>
+    <loc>https://goo-aw233.github.io/zh-CN/tutorial/Windows/isorepackage/</loc>
+    <lastmod>2023-12-23</lastmod>
+  </url>
+  <url>
+    <loc>https://goo-aw233.github.io/zh-CN/tutorial/Windows/makesetup/</loc>
+    <lastmod>2023-12-23</lastmod>
+  </url>
+  <url>
+    <loc>https://goo-aw233.github.io/zh-CN/tutorial/Windows/msstore/</loc>
+    <lastmod>2023-12-23</lastmod>
+  </url>
+  <url>
+    <loc>https://goo-aw233.github.io/zh-CN/tutorial/Windows/NT6upd/</loc>
+    <lastmod>2023-12-23</lastmod>
+  </url>
+  <url>
+    <loc>https://goo-aw233.github.io/zh-CN/tutorial/Windows/UWPnet/</loc>
+    <lastmod>2023-12-23</lastmod>
+  </url>
+  <url>
+    <loc>https://goo-aw233.github.io/zh-CN/tutorial/Windows/Win3.1/</loc>
+    <lastmod>2023-12-23</lastmod>
+  </url>
+  <url>
+    <loc>https://goo-aw233.github.io/zh-CN/tutorial/Windows/Win7SecureBoot/</loc>
+    <lastmod>2023-12-23</lastmod>
+  </url>
+  <url>
+    <loc>https://goo-aw233.github.io/zh-CN/tutorial/Windows/WSA3in1-old/</loc>
+    <lastmod>2023-12-23</lastmod>
+  </url>
+  <url>
+    <loc>https://goo-aw233.github.io/zh-CN/tutorial/Windows/appxbak/</loc>
+    <lastmod>2023-12-23</lastmod>
+  </url>
+  <url>
     <loc>https://goo-aw233.github.io/zh-CN/tutorial/Android/Pixel5FlashAndRoot/</loc>
     <lastmod>2023-10-21</lastmod>
   </url>
@@ -49,14 +109,6 @@
     <lastmod>2023-09-02</lastmod>
   </url>
   <url>
-    <loc>https://goo-aw233.github.io/zh-CN/tutorial/VM/QEMU/WindowsARMonQEMU/</loc>
-    <lastmod>2023-08-25</lastmod>
-  </url>
-  <url>
-    <loc>https://goo-aw233.github.io/zh-CN/others/tools/</loc>
-    <lastmod>2023-08-22</lastmod>
-  </url>
-  <url>
     <loc>https://goo-aw233.github.io/zh-CN/tutorial/Windows/Win11setupbypass/</loc>
     <lastmod>2023-08-03</lastmod>
   </url>
@@ -70,10 +122,6 @@
   </url>
   <url>
     <loc>https://goo-aw233.github.io/zh-CN/tutorial/Windows/Win11oobenetbypass/</loc>
-    <lastmod>2023-04-07</lastmod>
-  </url>
-  <url>
-    <loc>https://goo-aw233.github.io/zh-CN/tutorial/Windows/Win7SecureBoot/</loc>
     <lastmod>2023-04-07</lastmod>
   </url>
   <url>
@@ -102,10 +150,6 @@
   </url>
   <url>
     <loc>https://goo-aw233.github.io/zh-CN/tutorial/Windows/blockfeatureupd/</loc>
-    <lastmod>2023-04-07</lastmod>
-  </url>
-  <url>
-    <loc>https://goo-aw233.github.io/zh-CN/tutorial/Windows/appxbak/</loc>
     <lastmod>2023-04-07</lastmod>
   </url>
   <url>
@@ -169,26 +213,6 @@
     <lastmod>2023-01-29</lastmod>
   </url>
   <url>
-    <loc>https://goo-aw233.github.io/zh-CN/tutorial/Windows/WSA3in1-old/</loc>
-    <lastmod>2023-01-05</lastmod>
-  </url>
-  <url>
-    <loc>https://goo-aw233.github.io/zh-CN/tutorial/Windows/NT6upd/</loc>
-    <lastmod>2023-01-05</lastmod>
-  </url>
-  <url>
-    <loc>https://goo-aw233.github.io/zh-CN/tutorial/Windows/isorepackage/</loc>
-    <lastmod>2023-01-05</lastmod>
-  </url>
-  <url>
-    <loc>https://goo-aw233.github.io/zh-CN/tutorial/Windows/Win3.1/</loc>
-    <lastmod>2023-01-05</lastmod>
-  </url>
-  <url>
-    <loc>https://goo-aw233.github.io/zh-CN/tutorial/Windows/UWPnet/</loc>
-    <lastmod>2023-01-05</lastmod>
-  </url>
-  <url>
     <loc>https://goo-aw233.github.io/zh-CN/tutorial/Windows/unattended_files/</loc>
     <lastmod>2023-01-05</lastmod>
   </url>
@@ -197,27 +221,7 @@
     <lastmod>2023-01-05</lastmod>
   </url>
   <url>
-    <loc>https://goo-aw233.github.io/zh-CN/tutorial/Windows/msstore/</loc>
-    <lastmod>2023-01-05</lastmod>
-  </url>
-  <url>
     <loc>https://goo-aw233.github.io/zh-CN/tutorial/Windows/chgboot/</loc>
-    <lastmod>2023-01-05</lastmod>
-  </url>
-  <url>
-    <loc>https://goo-aw233.github.io/zh-CN/tutorial/Windows/flash/</loc>
-    <lastmod>2023-01-05</lastmod>
-  </url>
-  <url>
-    <loc>https://goo-aw233.github.io/zh-CN/tutorial/VM/VMware/vmtool/</loc>
-    <lastmod>2023-01-05</lastmod>
-  </url>
-  <url>
-    <loc>https://goo-aw233.github.io/zh-CN/tutorial/VM/VMware/vmmacOS-vb/</loc>
-    <lastmod>2023-01-05</lastmod>
-  </url>
-  <url>
-    <loc>https://goo-aw233.github.io/zh-CN/tutorial/VM/VMware/vmmacOS-ws/</loc>
     <lastmod>2023-01-05</lastmod>
   </url>
   <url>
@@ -242,10 +246,6 @@
   </url>
   <url>
     <loc>https://goo-aw233.github.io/zh-CN/tutorial/Windows/Win8.xkeybypass/</loc>
-    <lastmod>2022-08-21</lastmod>
-  </url>
-  <url>
-    <loc>https://goo-aw233.github.io/zh-CN/tutorial/Windows/makesetup/</loc>
     <lastmod>2022-08-21</lastmod>
   </url>
   <url>
