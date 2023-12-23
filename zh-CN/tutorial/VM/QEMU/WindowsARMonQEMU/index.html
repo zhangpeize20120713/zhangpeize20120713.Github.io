@@ -63,7 +63,7 @@
 <meta property="og:image" content="https://gcore.jsdelivr.net/gh/Goo-aw233/WebSiteResources@main/Pics/WindowsARMonQEMU/WindowsARMonQEMU29.png">
 <meta property="og:image" content="https://gcore.jsdelivr.net/gh/Goo-aw233/WebSiteResources@main/Pics/WindowsARMonQEMU/WindowsARMonQEMU30.png">
 <meta property="article:published_time" content="2022-07-10T13:33:43.000Z">
-<meta property="article:modified_time" content="2023-12-23T07:55:09.365Z">
+<meta property="article:modified_time" content="2023-12-23T08:22:49.513Z">
 <meta property="article:author" content="GuCATs">
 <meta property="article:tag" content="Windows">
 <meta property="article:tag" content="QEMU">
@@ -319,7 +319,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-12-23 15:55:09" itemprop="dateModified" datetime="2023-12-23T15:55:09+08:00">2023-12-23</time>
+      <time title="修改时间：2023-12-23 16:22:49" itemprop="dateModified" datetime="2023-12-23T16:22:49+08:00">2023-12-23</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -357,7 +357,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>2.7k</span>
+      <span>2.8k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -432,7 +432,7 @@
 <h2 id="后话"><a href="#后话" class="headerlink" title="后话"></a>后话</h2><ol>
 <li><p>光驱<br>如果你后面不需要光驱了可以把<br><code>-drive file=<"系统镜像路径\文件名.iso">,media=cdrom,if=none,id=cdrom -device usb-storage,drive=cdrom ^</code><br>与<br><code>-drive file=<"virtio-win 所在路径\virtio-win.iso">,media=cdrom,if=none,id=cdrom1 -device usb-storage,drive=cdrom1 ^</code><br>这两行代码删除</p>
 </li>
-<li><p>性能<br>因为没有显卡驱动以及其它的驱动，在 QEMU 模拟 Windows ARM 性能会大打折扣，整个过程会非常漫长，建议将文件存放在 SSD 内</p>
+<li><p>性能<br>因为没有显卡驱动以及其它的驱动，在 QEMU 模拟 Windows ARM 性能会大打折扣，整个过程会非常漫长，建议将文件存放在 SSD 内<br>或许你可以试试将 <code>-device virtio-gpu,virgl=on</code>添加到 <code>start.cmd</code> 内，然后在虚拟机工具栏 – “视图(V)” 里选择 <code>virtio-GPU</code>，但或许更糟糕（</p>
 </li>
 <li><p>对应驱动<br>文章内仅模拟了所需的硬件及网卡，其它的硬件需要自行查询<br>镜像内其它驱动的大致意思如下：<sup><a href="#参考文献">[3]</a></sup><br>NetKVM/: Virtio 网络驱动<br>viostor/: Virtio 块驱动<br>vioscsi/: Virtio SCSI 驱动<br>viorng/: Virtio RNG 驱动<br>vioser/: Virtio 串口驱动<br>Balloon/: Virtio 内存气球驱动<br>qxl/: 用于 Windows 7 及之前版本的 QXL 显卡驱动. (virtio-win-0.1.103-1 和之后版本会创建)<br>qxldod/: 用于 Windows 8 及之后版本的 QXL 显卡驱动. (virtio-win-0.1.103-2 和之后版本会创建)<br>pvpanic/: QEMU pvpanic 设备驱动 (virtio-win-0.1.103-2 和之后版本会创建)<br>guest-agent/: QEMU Guest Agent 32bit 和 64bit 安装包<br>qemupciserial/: QEMU PCI 串口设备驱动</p>
 </li>
